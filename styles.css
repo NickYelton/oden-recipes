@@ -1,0 +1,38 @@
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Main title styling */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Navigation menu styling */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #333;
+}
+
+li a:hover {
+    background-color: #555;
+}
