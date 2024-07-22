@@ -1,38 +1,42 @@
-/* Basic body styling */
+/* Universal Styling */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: auto;
+    padding: 10px;
+}
+
+/* Set box-sizing to border-box for all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Set default font family and size */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    font-size: 16px;
 }
 
-/* Main title styling */
-h1 {
+/* Set default text color and background color */
+body {
     color: #333;
+    background-color: #d9d3d3;
+}
+
+/* Add a basic border to all images */
+img {
+    border: 1px solid #ccc;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
     text-align: center;
-    margin-top: 20px;
 }
 
-/* Navigation menu styling */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #333;
-}
-
-li {
-    display: inline;
-    margin-right: 10px;
-}
-
-li a {
-    color: white;
-    text-decoration: none;
-    padding: 5px 10px;
-    background-color: #333;
-}
-
-li a:hover {
-    background-color: #555;
+hr {
+    border: none; /* Remove default border */
+    height: 2px; /* Set the height of the line */
+    background-color: black; /* Set the color of the line */
+    margin: 20px 0; /* Add some vertical spacing around the line */
 }
